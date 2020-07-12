@@ -23,4 +23,10 @@ p {
 
 .card-title {
     font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+button {
+    background-color: #413a5d;
 }
