@@ -2,7 +2,7 @@ main {
     background-image: url(https://cdn.pixabay.com/photo/2017/06/04/18/14/marble-2371776_1280.jpg);
 }
 
-nav {
+nav, footer, caption {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-variant: small-caps;
@@ -21,12 +21,50 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.card-title {
+.card-header {
     font-weight: bold;
     font-variant: small-caps;
     text-align: center;
+    color: #413a5d;
 }
 
-button {
-    background-color: #413a5d;
-}
+footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7b6f92;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+  }
+
+    .caption {
+        position: absolute;
+        top: 67%;
+        width: 185px;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #413a5d;
+        color: white;
+    }
+
+    .caption2 {
+        position: absolute;
+        top: 67%;
+        width: 185px;
+        margin-left: 245px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #413a5d;
+        color: white;
+    }
