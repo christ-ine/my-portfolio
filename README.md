@@ -1,4 +1,4 @@
-# Project Title
+# Christine's Portfolio
 
 This is my portfolio. 
 
