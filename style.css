@@ -68,3 +68,25 @@ footer {
         background-color: #413a5d;
         color: white;
     }
+
+   
+
+      a.port-link:hover {
+        color:white;
+        background-color: transparent;
+        /* text-decoration: underline; */
+      }
+
+      a.port-link:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a.port-link:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    
