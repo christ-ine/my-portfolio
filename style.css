@@ -9,7 +9,9 @@ nav, footer, caption {
 }
 
 img {
-    float: left;
+    display: inline-flex;
+    
+    /* float: left; */
     padding-right: 15px;
 }
 
@@ -48,7 +50,7 @@ footer {
     .caption {
         position: absolute;
         top: 67%;
-        width: 185px;
+        width: 260px;
         margin-left: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -60,8 +62,8 @@ footer {
     .caption2 {
         position: absolute;
         top: 67%;
-        width: 185px;
-        margin-left: 245px;
+        width: 260px;
+        margin-left: 325px;
         padding-top: 10px;
         padding-bottom: 10px;
         text-align: center;
